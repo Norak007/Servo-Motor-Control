@@ -21,3 +21,36 @@ Arduino UNO
 Breadboard
 
 Jumper Wires
+
+# Simple Walking Algorithm
+
+We have 4 servo motors:
+
+Servo 1 → Left leg
+
+Servo 2 → Right leg
+
+Servo 3 → Moves the body forward (like the hip)
+
+Servo 4 → Helps with balance or acts like an arm
+
+
+Steps:
+
+Lift the right leg a little by moving Servo 2 to 60°.
+
+Tilt the body forward using Servo 3 (for example, move it to 100°).
+
+Move the right leg forward (Servo 2 to 120°).
+
+Lower the right leg back to 90°.
+
+Now do the same steps with the left leg using Servo 1.
+
+Use Servo 4 to make small moves to help with balance.
+
+Repeat these steps again and again to make the robot walk.
+
+
+
+Each step = lift leg → move body → move leg forward → put leg down → switch legs.
